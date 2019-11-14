@@ -1,0 +1,31 @@
+body {
+    font-family: 'Fira Sans';
+    padding: 1em;
+}
+
+section {
+    display: flex;
+}
+
+article {
+    padding: 1em;
+    width: 100%;
+}
+
+#map {
+    width: 100%;
+    min-height: 500px;
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.hidden-point {
+    display: none;
+}
+
+.visible-point {
+    display: block;
+}
