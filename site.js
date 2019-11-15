@@ -13,6 +13,9 @@ function initMap() {
             map: map,
             animation: google.maps.Animation.DROP,
             title: element.dataset.title,
+            icon: {
+                url: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
+            },
             opacity: 0.8
         });
         marker.addListener("click", function() {
