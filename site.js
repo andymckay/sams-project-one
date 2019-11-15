@@ -14,7 +14,7 @@ function initMap() {
             animation: google.maps.Animation.DROP,
             title: element.dataset.title,
             icon: {
-                url: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png"
+                url: `http://maps.google.com/mapfiles/ms/icons/${element.dataset.icon}`
             },
             opacity: 0.8
         });
