@@ -39,3 +39,11 @@ h1 {
 #selected {
     padding-top: 1em;
 }
+
+footer {
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    border-top: 1px solid lightgrey;
+    color: grey;
+    text-align: right;
+}
