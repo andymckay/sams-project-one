@@ -29,3 +29,13 @@ article {
 .visible-point {
     display: block;
 }
+
+h1 {
+    padding-top: 0.3em;
+    padding-left: 3.25em;
+    color: white;
+}
+
+#selected {
+    padding-top: 1em;
+}
