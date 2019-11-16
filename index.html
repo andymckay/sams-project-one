@@ -1,56 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <link rel="stylesheet" 
-        href="bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css">
-    <link href="site.css" rel="stylesheet" type="text/css">
-    <title>Sams Project</title>
-</head>
+        <link rel="stylesheet" 
+            href="bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css">
+        <link href="site.css" rel="stylesheet" type="text/css">
+        <title>Sams Project</title>
+    </head>
     <body>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <h1>Sams Project</h1>
         </nav>
         <main>
-        <div class="container">
-            <div class="row">
-                <div id="map">
-                </div>
-            </div>
-            <div class="row">
-                <div id="selected">
-                    <div id="blank-slate">
-                        Nothing selected<br/>
-                        Click a marker on the map to get started.
-                    </div>
-                    <div id="selected-a"
-                        class="point hidden-point"
-                        data-lat="49.34973"
-                        data-lng="-122.9912"
-                        data-title="Squamish Nation, Sḵwx̱wú7mesh Úxwumixw"
-                        data-icon="red.png">
-                        <h3>Squamish Nation, Sḵwx̱wú7mesh Úxwumixw</h3>
-                        <p>About the Squamish ...</p>
-                    </div>
-                    <div id="selected-b"
-                        class="point hidden-point"
-                        data-lat="60.5670202"
-                        data-lng="-140.4228454"
-                        data-title="Mount Logan"
-                        data-icon="grey.png">
-                        <h3>Mount Logan</h3>
-                        <p>About Mount Logan</p>
-                        <img src="https://www.climbing.com/.image/t_share/MTM2NDY1NTg1MzAyMjE4MzM1/mountlogansummitjpg.jpg" width="500px">
+            <div class="container">
+                <div class="row">
+                    <div id="map">
                     </div>
                 </div>
+                <div class="row">
+                    <div id="selected">
+                        <div id="blank-slate">
+                            Nothing selected<br/>
+                            Click a marker on the map to get started.
+                        </div>
+                        <div id="selected-a"
+                            class="point hidden-point"
+                            data-lat="49.34973"
+                            data-lng="-122.9912"
+                            data-title="Squamish Nation, Sḵwx̱wú7mesh Úxwumixw"
+                            data-icon="red.png">
+                            <h3>Squamish Nation, Sḵwx̱wú7mesh Úxwumixw</h3>
+                            <p>About the Squamish ...</p>
+                        </div>
+                        <div id="selected-b"
+                            class="point hidden-point"
+                            data-lat="60.5670202"
+                            data-lng="-140.4228454"
+                            data-title="Mount Logan"
+                            data-icon="grey.png">
+                            <h3>Mount Logan</h3>
+                            <p>About Mount Logan</p>
+                            <img src="https://www.climbing.com/.image/t_share/MTM2NDY1NTg1MzAyMjE4MzM1/mountlogansummitjpg.jpg" width="500px">
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-</main>
-    <footer class="container fixed-bottom">
-        Made awesome by Samantha. <a href="https://github.com/andymckay/sams-project-one">Source on GitHub</a>.
-    </footer>
-    <script src="site.js" type="text/javascript"></script> 
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-fSYaLhGAgHfNmgpznUGEVLbu0aSm8UI&callback=initMap"></script>
+        </main>
+        <script src="site.js" type="text/javascript"></script> 
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC-fSYaLhGAgHfNmgpznUGEVLbu0aSm8UI&callback=initMap"></script>
     </body>
 </html>
