@@ -38,4 +38,8 @@ h1 {
 
 #selected {
     padding-top: 1em;
-|
+}
+
+#reset {
+    margin-top: 0.5em;
+}

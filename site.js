@@ -26,4 +26,9 @@ function initMap() {
             element.className = "visible-point";
         })
     }
-  }
+}
+
+document.getElementById("reset").addEventListener("click", function(e) {
+    e.preventDefault();
+    location.reload();
+});
