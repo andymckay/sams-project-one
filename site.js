@@ -1,6 +1,6 @@
 function initMap() {
     // Centre of Canada.
-    var myLatLng = {lat: 56.1304, lng: -106.3468};
+    var myLatLng = {lat: 58.1304, lng: -106.3468};
     var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 3.2,
       center: myLatLng,
