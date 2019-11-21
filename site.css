@@ -43,3 +43,8 @@ h1 {
 #reset {
     margin-top: 0.5em;
 }
+
+#words {
+    padding-left: 4em;
+    padding-right: 4em;
+}
